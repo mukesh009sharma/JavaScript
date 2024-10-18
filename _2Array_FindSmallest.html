@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a js program code to define an array to store 10 Numbers  and Find its smallest value
+        function smallest(){
+            let numbers=[12,34,54,64,64,87,98,76,99,23,11];
+            let smallest =[0]
+            for(let i=1;i<numbers.length;i++){
+                if( numbers[i]<smallest){
+                    smallest=numbers[i];
+                }
+            }
+            console.log("Smallest Value is : "+smallest)
+        }
+        smallest();
+    </script>
+</body>
+</html>
