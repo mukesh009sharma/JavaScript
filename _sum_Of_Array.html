@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Array Elements</title>
+</head>
+<body>
+    <script>
+        // Problem 9: Write a JavaScript program to find the sum of all elements in an array.
+        function sumOfArray(arr) {
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+            return sum;
+        }
+
+        let numbers = [5, 10, 15, 20];
+        let sum = sumOfArray(numbers);
+        console.log("Sum of array elements: " + sum);
+    </script>
+</body>
+</html>
