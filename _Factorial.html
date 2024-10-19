@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial of a Number</title>
+</head>
+<body>
+    <script>
+        // Problem 4: Write a JavaScript program to find the factorial of a given number.
+        function factorial(n) {
+            let fact = 1;
+            for (let i = 1; i <= n; i++) {
+                fact *= i;
+            }
+            return fact;
+        }
+
+        let number = 5;
+        let result = factorial(number);
+        console.log("Factorial of " + number + " is: " + result);
+    </script>
+</body>
+</html>
